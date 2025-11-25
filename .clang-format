@@ -1,0 +1,26 @@
+BasedOnStyle: Microsoft
+ColumnLimit: 100
+IndentWidth: 4
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+MaxEmptyLinesToKeep: 1
+
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortFunctionsOnASingleLine: Inline
+
+AlignConsecutiveShortCaseStatements:
+    Enabled: true
+    AcrossEmptyLines: true
+    AcrossComments: true
+    AlignCaseColons: false
+AlignAfterOpenBracket: BlockIndent
+
+EmptyLineBeforeAccessModifier: Always
+AccessModifierOffset: -4
+
+AlwaysBreakTemplateDeclarations: true
